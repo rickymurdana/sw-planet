@@ -70,7 +70,6 @@ export default class PlanetList extends Component {
             .then((res) => {
                 const planets = res.data.results;
                 this.setState({ planets });
-                console.log(this.state.planets)
             })
             .catch((err) => {
                 console.log(err);

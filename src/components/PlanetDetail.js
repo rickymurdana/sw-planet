@@ -19,7 +19,6 @@ export default class PlanetDetail extends Component {
                 this.setState({
                     planetDetail
                 });
-                console.log(planetDetail)
             })
             .catch((err) => {
                 console.log(err);
