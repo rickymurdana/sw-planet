@@ -85,7 +85,9 @@ body {
   background: #23263a;
   color: #fff;
   margin: 20px;
-  border-radius: 8px
+  border-radius: 8px;
+  cursor: pointer;
+
 }
 
 .commonIcons {
@@ -118,7 +120,7 @@ body {
   color: #fff;
   width: 80%;
   margin: auto;
-  border-radius: 8px
+  border-radius: 8px;
 }
 
 .planetDetail__box-header {
